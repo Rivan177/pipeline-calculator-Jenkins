@@ -51,7 +51,7 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
-                echo 'name-of-the-branch'
+                echo '2Branch'
             }
         }
     }
